@@ -16,6 +16,7 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location}>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -60,6 +61,17 @@ class BlogPostTemplate extends React.Component {
             </li>
           )}
         </ul>
+        <script>
+          if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+              if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                  document.location.href = "/admin/";
+                });
+              }
+            })
+          }
+        </script>
       </Layout>
     )
   }
