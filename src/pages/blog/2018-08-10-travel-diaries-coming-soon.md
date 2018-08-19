@@ -25,8 +25,7 @@ Here are few things that you can take note of before heading to Bali:
 
 ## Day 1:
 
-**South Bali:
-**
+**South Bali:**
 
 _**Water Bomb**_- An avoidable place. There are interesting rock formations from waves. Its quite hot as well. Avoid during sunny days.
 
