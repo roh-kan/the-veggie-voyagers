@@ -3,7 +3,7 @@ module.exports = {
     title: 'The Veggie Voyagers',
     author: 'roh-kan',
     description: 'A travel blog.',
-    siteUrl: 'theveggievoyagers.com',
+    siteUrl: 'https://theveggievoyagers.com',
   },
   pathPrefix: '/travel-blog',
   plugins: [
