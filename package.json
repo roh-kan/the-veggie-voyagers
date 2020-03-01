@@ -7,7 +7,7 @@
     "url": "https://github.com/"
   },
   "dependencies": {
-    "gatsby": "^2.13.50",
+    "gatsby": "^2.19.23",
     "gatsby-plugin-feed": "latest",
     "gatsby-plugin-google-analytics": "latest",
     "gatsby-plugin-offline": "latest",
