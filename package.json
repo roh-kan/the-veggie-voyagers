@@ -7,7 +7,7 @@
     "url": "https://github.com/"
   },
   "dependencies": {
-    "gatsby": "^2.19.23",
+    "gatsby": "^2.24.23",
     "gatsby-plugin-feed": "latest",
     "gatsby-plugin-google-analytics": "latest",
     "gatsby-plugin-offline": "latest",
@@ -19,10 +19,10 @@
     "gatsby-remark-prismjs": "latest",
     "gatsby-remark-responsive-iframe": "latest",
     "gatsby-remark-smartypants": "latest",
-    "gatsby-source-filesystem": "latest",
+    "gatsby-source-filesystem": "^2.3.23",
     "gatsby-transformer-remark": "latest",
     "gatsby-transformer-sharp": "latest",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "prismjs": "^1.15.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

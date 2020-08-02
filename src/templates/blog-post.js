@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 
 import Bio from '../components/Bio'
@@ -16,7 +16,7 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location}>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -60,7 +60,6 @@ class BlogPostTemplate extends React.Component {
             </li>
           )}
         </ul>
-       
       </Layout>
     )
   }
